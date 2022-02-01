@@ -6,6 +6,8 @@ To use the bookmarklet, drag the link below to your bookmark bar. Once synchroni
 
 [ar5this](javascript:(loc=document.location;alert(loc);))
 
+[test](javascript:(function() {document.title=prompt("Enter Page Title");})();)
+
 ```
 function(){
   if (window.location.contains('://arxiv.org/')){
