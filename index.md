@@ -4,7 +4,7 @@
 
 To use the bookmarklet, drag the link below to your bookmark bar. Once synchronized with your mobile browser, you can also use the bookmarklet by typing the name of it in the address bar of the page you want to convert to ar5iv.
 
-[ar5this](javascript:(function(){if (window.location.contains("https://arxiv.org/",0){window.location=loc.replace("https://arxiv.org/","https://ar5iv.org/");}}).call(this);)
+[ar5this](javascript:(function(){if (window.location.contains("https://arxiv.org/",0)){window.location=loc.replace("https://arxiv.org/","https://ar5iv.org/");}}).call(this);)
 
 ```
 test
