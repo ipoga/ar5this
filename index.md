@@ -6,6 +6,12 @@ To use the bookmarklet, drag the link below to your bookmark bar. Once synchroni
 
 [ar5this](javascript:(function(){if (window.location.contains('://arxiv.org/')){window.location=loc.replace('://arxiv.org/','://ar5iv.org/');}}).call(this);)
 
+[ar5this](javascript:(function(){loc=window.location;if(loc.contains("arxiv"){alert(loc);}).call(this);)
+
+[ar5this](javascript:if(document.location.contains(arxiv){alert(document.location);})
+
+[test](javascript:(function(){loc=document.location;alert(loc);}).call(this);)
+
 ```
 function(){
   if (window.location.contains('://arxiv.org/')){
